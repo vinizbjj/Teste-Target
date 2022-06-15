@@ -3,12 +3,13 @@
 
 int main()
 {
-    char frase[20];
+    char frase[100];
     char vet;
     int i, j;
 
-    printf("Qualquer frase de ate 20 caracteres: ");
-    scanf("%s", frase);
+    printf("Qualquer frase de ate 100 caracteres: ");
+
+    scanf("%[^\n]", frase);
 
     i = 0;
     j = strlen(frase) - 1;

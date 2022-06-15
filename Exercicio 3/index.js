@@ -31,7 +31,7 @@ for (const totalft of myJson) {
 }
 
 
-console.log("Dias que o faturamento diario foram maio que a media: ",ftdm);
+console.log("Dias que o faturamento diario foram maior que a media: ",ftdm);
 console.log("Faturamento total foi de ", sum);
 console.log("Menor faturamento foi de:", min, "Maior faturamento foi de:", max);
 console.log("Media de faturamento é:", med);
